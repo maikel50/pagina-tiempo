@@ -1,4 +1,43 @@
 body {
-  background: #171717;
-  color: #fff;
+  background: #ffffff;
+  color: #000000;
+}
+
+.header {
+  background-color: #00a2e8;
+  padding: 20px;
+  text-align: center;
+  
+}
+.titulo{
+  background-color: white;
+  display: inline-block;
+  width: 900px;
+  font-weight: bold;
+  border: 5px solid black;
+}
+.frase{
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+}
+.carrusel{
+  padding: 150px;
+  text-align: center;
+  background-color: #70f000;
+}
+.items{
+  padding: 120px;
+  background-color: blue;
+}
+.fila{
+  display: flex;
+  justify-content: space-between;
+}
+.item{
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
