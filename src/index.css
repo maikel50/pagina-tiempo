@@ -28,16 +28,34 @@ body {
   background-color: #70f000;
 }
 .items{
-  padding: 120px;
-  background-color: blue;
-}
-.fila{
-  display: flex;
-  justify-content: space-between;
+  background: lightgray;
+  display: grid;
+  justify-content: space-around;
+  min-height: 800px;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-template-rows: repeat(2, 300px);
+  gap : 170px;
+  
 }
 .item{
-  width: 100px;
-  height: 100px;
-  border: 2px solid black;
-  border-radius: 10px;
+  background-color: #bf03e9;
+  border-radius: 10% ;
+}
+
+.paginas{
+  background: lightpink;
+  height: 350px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.pag{
+  background: lightseagreen;
+  width: 450px;
+  height: 300px;
+  border-radius: 10%;
+}
+.footer{
+  background: lightsalmon;
+  height: 140px;
 }
