@@ -43,11 +43,12 @@ body {
 }
 
 .paginas{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   background: lightpink;
   height: 350px;
-  justify-content: space-around;
-  display: flex;
   align-items: center;
+  justify-items: center;
 }
 .pag{
   background: lightseagreen;
@@ -55,7 +56,26 @@ body {
   height: 300px;
   border-radius: 10%;
 }
+.bottom-app{
+  text-align: center;
+  height: 100px;
+  background: lightgreen;
+  margin: 0 auto;
+}
+#boton{
+  width: 300px;
+  height: 100px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
 .footer{
   background: lightsalmon;
-  height: 140px;
+  height: 100px;
+}
+.faq{
+  height: 700px;
 }
